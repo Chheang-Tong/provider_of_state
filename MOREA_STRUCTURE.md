@@ -77,4 +77,14 @@ lib/
 // user_role_enum.dart
 ![image](/image/README/enum_role.png)
 // extension view
-![extension](/morea_stucture/date_time_range_extension.dart)
+![extension](/morea_stucture/extension/date_time_range_extension.dart)
+
+```md
+lib/
+│
+├── [main.dart](/lib/main.dart)
+│
+├── app/
+│ ├── app.dart
+│ └── app_providers.dart
+```
