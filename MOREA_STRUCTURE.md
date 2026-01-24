@@ -1,4 +1,3 @@
-
 ```text
 lib/
 │
@@ -16,7 +15,9 @@ lib/
 │   │   └── env.dart
 |   |
 │   ├── enums/
-│   │   └── api_service.dart
+│   │   └── db_serialized_object_type_enum.dart ![1768381946675](image/README/1768381946675.png)
+│   │   └── local_service.dart
+│   │   └── user_role_enum.dart
 |   |
 │   ├── models/  ///to get data
 │   │   └── user_model.dart
@@ -53,10 +54,4 @@ lib/
     │
     └── providers/
         └── theme_provider.dartlib/
-...
-└── shared/
-    ├── widgets/
-    │   └── app_button.dart
-    │
-    └── providers/
-        └── theme_provider.dartlib/
+```
