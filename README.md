@@ -2,6 +2,7 @@
 ![1768381919576](image/README/1768381919576.png)
 ![1768381946675](image/README/1768381946675.png)
 
+```bash
 lib/
 ├── main.dart
 │
