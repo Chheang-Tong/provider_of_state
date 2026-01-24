@@ -9,6 +9,15 @@ lib/
 │   └── app_providers.dart
 │
 ├── core/
+│   └── constants/
+│   │   └── app_color.dart
+│   │   └── app_config.dart
+│   │   └── app_style.dart
+│   │   └── env.dart
+|   |
+│   ├── enums/
+│   │   └── api_service.dart
+|   |
 │   ├── models/  ///to get data
 │   │   └── user_model.dart
 │   │   └── errors_handler_model.dart
@@ -24,12 +33,6 @@ lib/
 │   ├── services/
 │   │   └── api_service.dart
 │   │
-│   └── constants/
-│   │   └── app_color.dart
-│   │   └── app_config.dart
-│   │   └── app_style.dart
-│   │   └── env.dart
-│   │
 │   └── utils/
 │       └── constants.dart
 │
@@ -44,6 +47,13 @@ lib/
 │       └── widgets/
 │           └── login_form.dart
 │
+└── shared/
+    ├── widgets/
+    │   └── app_button.dart
+    │
+    └── providers/
+        └── theme_provider.dartlib/
+...
 └── shared/
     ├── widgets/
     │   └── app_button.dart
