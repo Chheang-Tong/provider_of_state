@@ -15,10 +15,21 @@ lib/
 │   │   └── env.dart
 |   |
 │   ├── enums/
-│   │   └── db_serialized_object_type_enum.dart  
-![image](/image/README/image.png)
+│   │   └── db_serialized_object_type_enum.dart
 │   │   └── local_service.dart
 │   │   └── user_role_enum.dart
+|   |
+│   ├── extensions/
+│   │   └── date_time_range_extension.dart
+│   │   └── errors_handler_model.dart
+│   │   └── json_serialized_object_model.dart
+│   │   └── listing_model.dart
+│   │   └── user_model.dart
+│   │   └── manager_model.dart
+│   │   └── manager_saleman_model.dart
+│   │   └── order_history_model.dart
+│   │   └── ordering_model.dart
+│   │   └── user_model.dart
 |   |
 │   ├── models/  ///to get data
 │   │   └── user_model.dart
@@ -57,4 +68,13 @@ lib/
         └── theme_provider.dartlib/
 ```
 
+// db_serialized_object_type_enum.dart  
 ![image](/image/README/image.png)
+
+// Local_service
+![image](/image/README/local_service.png)
+
+// user_role_enum.dart
+![image](/image/README/enum_role.png)
+// extension view
+![extension](/morea_stucture/date_time_range_extension.dart)
