@@ -91,7 +91,7 @@ lib/
 
 ```md
 - `lib/`
-- [`main.dart`](lib/main.dart)
+- [main.dart](lib/main.dart)
 - `app/`
 - [`app.dart`](lib/app/app.dart)
 ```
