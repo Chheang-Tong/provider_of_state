@@ -15,7 +15,7 @@ lib/
 │   │   └── env.dart
 |   |
 │   ├── enums/
-│   │   └── db_serialized_object_type_enum.dart ![1768381946675](image/README/1768381946675.png)
+│   │   └── db_serialized_object_type_enum.dart
 │   │   └── local_service.dart
 │   │   └── user_role_enum.dart
 |   |
@@ -55,3 +55,5 @@ lib/
     └── providers/
         └── theme_provider.dartlib/
 ```
+
+![image](/image/README/image.png)
