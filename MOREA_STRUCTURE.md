@@ -76,22 +76,12 @@ lib/
 
 // user_role_enum.dart
 ![image](/image/README/enum_role.png)
+
 // extension view
-![extension](/morea_stucture/extension/date_time_range_extension.dart)
-
-```md
-lib/
-│
-├── main.dart
-│
-├── app/
-│ ├── app.dart
-│ └── app_providers.dart
-```
-
-```md
-- `lib/`
-- [main.dart](lib/main.dart)
-- `app/`
-- [`app.dart`](lib/app/app.dart)
-```
+![DateTimeRange](/morea_stucture/extension/date_time_range_extension.dart)
+![DateTime](/morea_stucture/extension/date_time_extension.dart)
+![Duration](/morea_stucture/extension/duration_extension.dart)
+![Local](/morea_stucture/extension/local_extension.dart)
+![Response](/morea_stucture/extension/response_extension.dart)
+![StoreStatus](/morea_stucture/extension/store_status_exension.dart)
+![String](/morea_stucture/extension/string_extension.dart)
