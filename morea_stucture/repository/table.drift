@@ -1,0 +1,93 @@
+create table json_serialized_objects
+(
+	id integer not null
+		constraint json_serialized_objects_pk
+			primary key autoincrement,
+	value text,
+	object_type text
+);
+
+create unique index json_serialized_objects_id_uindex
+	on json_serialized_objects (id);
+
+create table my_profile
+(
+	id INTEGER not null
+		constraint my_profile_pk
+			primary key,
+	first_name TEXT,
+	last_name TEXT,
+	full_name TEXT,
+	image_url TEXT,
+	image_byte BLOB,
+	phone_number TEXT,
+	address TEXT,
+	role_id INTEGER,
+	role_name TEXT,
+	reported_to_name TEXT,
+	reported_to_role TEXT,
+	checked_in_route_id int,
+	checked_in_store_id int,
+	checked_in_date_time TEXT,
+	checked_in_store_name TEXT,
+	checked_in_store_code TEXT,
+	today_route_plan_count int,
+	uncompleted_order_count int
+);
+
+create unique index my_profile_id_uindex
+	on my_profile (id);
+
+create table products
+(
+	id int not null
+		constraint products_pk
+			primary key,
+	product_name text,
+	product_code text,
+	product_unit text,
+	product_image text,
+	selling_price real,
+	selling_price_before_discount real,
+	promotion_id int,
+	promotion_name text,
+	promotion_description text,
+	promotion_expiry_date text,
+	store_id int,
+	available_quantity int
+);
+
+create unique index products_id_uindex
+	on products (id);
+
+create table promotions
+(
+	id int not null
+		constraint promotions_pk
+			primary key,
+	name text,
+	description text,
+	expiry_date text,
+	product_id int,
+	product_name text,
+	sku_code text,
+	product_unit text,
+	selling_price real,
+	image text
+);
+
+create unique index promotions_id_uindex
+	on promotions (id);
+
+create table stores
+(
+	id INTEGER not null
+		constraint store_pk
+			primary key,
+	store_code TEXT,
+	store_name TEXT
+);
+
+create unique index store_id_uindex
+	on stores (id);
+
