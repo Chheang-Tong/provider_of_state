@@ -97,13 +97,22 @@ lib/
 - [User Model](/morea_stucture/model/user_model.dart) auth model is in user_model
 
 ================================= Repositories ======================================
+
 - [Local Database](/morea_stucture/repository/local_database/database.dart)
 - [Drift](/morea_stucture/repository/table.drift)
 
 ================================= Service ======================================
+
 - [Api Provider Service](/morea_stucture/service/api_provider_service.dart)
 - [Global Service](/morea_stucture/service/global_service.dart)
 - [Local Service](/morea_stucture/service/local_service.dart)
 - [Notification Service](/morea_stucture/service/notification_service.dart)
 
 ================================= Type ======================================
+
+- [Exception Title Message](/morea_stucture/type/exception_with_title_message.dart)
+- [HTTP View Model](/morea_stucture/type/http_validation_exception.dart)
+
+================================= View Model ======================================
+- [Subclass](/morea_stucture/view_model/view_model/salesman_store_list_view_model.dart)
+- [Superclass](/morea_stucture/view_model/base_view_model_store_list.dart)
