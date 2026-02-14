@@ -1,3 +1,5 @@
+// ignore_for_file: unused_catch_stack, depend_on_referenced_packages
+
 import 'dart:io';
 
 import 'package:drift/drift.dart';
