@@ -11,9 +11,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  #State management
+  stacked: ^3.5.0
+  rxdart: ^0.28.0
+  #Local data storage
+  hive: ^2.2.3
+  #Secure Storage to store encrypt key
+  flutter_secure_storage: ^10.0.0
+  #Localization
+  easy_localization: ^3.0.0
+  page_transition: ^2.1.0
   cupertino_icons: ^1.0.8
+  #Provide app path
   path_provider: ^2.1.5
   sqlcipher_flutter_libs: ^0.6.8
+  simple_animations: ^5.2.0
 
 dev_dependencies:
   flutter_test:

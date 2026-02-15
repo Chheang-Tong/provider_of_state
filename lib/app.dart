@@ -1,8 +1,5 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:state_provider/home.dart';
-
 import 'core/constants/app_color.dart';
 import 'core/constants/app_style.dart';
 
